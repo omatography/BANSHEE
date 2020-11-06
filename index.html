@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- meta data -->
     <meta charset="UTF-8">
+    <meta name="author" content="Omkar R">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BANSHEE</title>
+    <!-- css of bootstrap and custom -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
     <link rel="stylesheet" href="style.css">
+    <!-- font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <title>BANSHEE</title>  <!-- Title-->
+    <link rel="shortcut icon" href="assets/spacerocket.svg"> <!--title icon-->
 </head>
 <body>
+    <!-- navbar  -->
+    <div class="container-fluid">
+        <div class="navbar navbar-expand-md fixed-top navbar-dark " id="navbar">
+            <!-- navbar logo -->
+            <div class="navbar-brand mr-auto">
+                <a href="#home" ><span class="text-white">BANSHEE</span> </a>
+            </div>
+            <button class="navbar-toggler fixed " data-target="#navmenu" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbar menu  -->
+            <div class="collapse navbar-collapse " id="navmenu">
+                <ul class="nav navbar-nav navbar-center" >
+                    <li class="nav-item" role="presentation"><a href="#about" class=" nav-link active ">ABOUT</a></li>
+                    <li class="nav-item" role="presentation"><a href="#about" class=" nav-link">SERVICES</a></li>
+                    <li class="nav-item" role="presentation"><a href="#about" class=" nav-link">TESTIMONIALS</a></li>
+                    <li class="nav-item" role="presentation"><a href="#about" class=" nav-link">PORTFOLIO</a></li>
+                    <li class="nav-item" role="presentation"><a href="#about" class=" nav-link">CONTACT</a></li>
+                </ul>
+                <span class="text-white ml-auto">SIGN IN</span>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- home -->
+    <div class="home-background">
+        <div class="container-fluid home" >
+            <h1 class="home-heading">Game Art Design <br>
+                and Development</h1>
+            <p class="home-para">Banshee is a team of passionate & creative game <br>
+            developers specializing in game design, development <br>& deployment</p> 
+            <button class=" btn contact-btn btn-outline-light">
+                <span class="contact-btn-para">Contact Us</span>
+            </button>   
+        </div>
+    </div>
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.js"></script>

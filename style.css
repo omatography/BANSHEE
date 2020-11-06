@@ -1,0 +1,54 @@
+*{
+    font-family: "Montserrat",sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+
+.nav-link{
+    font-weight: bold;
+}
+
+.home-background{
+    height: 100vh;
+    min-height: 500px;
+    background: url("assets/nasa-Q1p7bh3SHj8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home{
+    padding-right: 55px;
+    padding-left: 55px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.home-heading{
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.home-para{
+    color: white;
+    font-size: 21px;
+}
+
+.contact-btn{
+    border: 3px solid white;
+    border-radius: 30px;
+
+}
+
+.contact-btn-para{
+    color: white;
+    font-size: 21px;
+    
+}
