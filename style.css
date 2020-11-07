@@ -1,10 +1,14 @@
 *{
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat",sans-serif; 
 }
 body{
     background-color: black;
 }
 
+.container{
+    padding: 0 0px;
+    
+}
 .navbar-center {
     position: absolute;
     left: 50%;
@@ -18,10 +22,11 @@ body{
 .home-background{
     height: 100vh;
     min-height: 500px;
-    background: url("assets/nasa-Q1p7bh3SHj8-unsplash.jpg");
+    background: url("assets/home-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .home{
     padding-right: 55px;
@@ -51,4 +56,137 @@ body{
     color: white;
     font-size: 21px;
     
+}
+
+.heading{
+    font-weight: 800;
+    color:white ;
+    font-size: 48px;
+}
+
+.paragraph{
+    color: white;
+    font-size:17px;
+    
+}
+
+.about-col{
+    padding:0 0px;
+}
+.about-box{
+    margin:10px;
+    
+}
+
+.about-box-heading{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+
+
+.heading-services{
+    font-size: 19px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    left:20px;
+    bottom:30px;
+}
+
+.test-col{
+    background-color: #262626;
+    border-radius: 28px;
+    min-height:270px;
+    margin:12px;
+}
+
+.quote{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 20px;
+    
+}
+
+.quote-box{
+    padding:20px;
+}
+
+.circle{
+    width:210px;
+    height: 210px;
+    border-radius: 150px;
+    background:url("assets/ubisoft\ bg.jpg");
+    background-size: cover;
+    position: absolute;
+    right:-140px;
+    top:50%;
+    transform: translateY(-54%);
+}
+
+.circle2{
+    width:210px;
+    height: 210px;
+    border-radius: 150px;
+    background:url("assets/xbox\ bg.jpg");
+    background-size: cover;
+    position: absolute;
+    right:-140px;
+    top:50%;
+    transform: translateY(-54%);
+}
+
+.logo{
+    width:160px;
+    height: 160px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.gallery-img{
+    height:200px;
+    padding:13px;
+}
+
+.dark-input{
+    background-color: black;
+    border:0;
+    border-bottom: 1px solid #768185;
+    border-radius: 0;
+    margin-top:20px;
+}
+
+.btn-grey{
+    background-color: #353942;
+    color: white;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.contact-img{
+    width: 200px;
+    position: absolute;
+    left:30%;
+    top:40%;
+   
+
+}
+
+.footer-head{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-para{
+    color:#b4b4b4;
+    font-weight: 500;
+    font-size: 15px;
 }
