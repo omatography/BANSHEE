@@ -195,9 +195,9 @@ a:hover{
     outline:none !important;
     
 }
-.form-control:focus{
-    outline:none !important;
-}
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+} 
 
 .btn-grey{
     background-color: #353942;
