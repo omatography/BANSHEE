@@ -14,28 +14,28 @@ $(document).ready(() =>{
         $('#about').addClass('animate__animated animate__fadeIn animate__fast ');
     
         },{
-            offset: '80%'
+            offset: '70%'
     });
 
     $('#services').waypoint(function(direction){
         $('#services').addClass('animate__animated animate__fadeIn animate__fast ');
     
         },{
-            offset: '70%'
+            offset: '60%'
     });
 
     $('#portfolio').waypoint(function(direction){
         $('#portfolio').addClass('animate__animated animate__fadeIn animate__fast');
     
         },{
-            offset: '70%'
+            offset: '60%'
     });
 
     $('#contacts').waypoint(function(direction){
         $('#contacts').addClass('animate__animated animate__fadeIn animate__fast');
     
         },{
-            offset: '70%'
+            offset: '60%'
     });
 
     $('#test').waypoint(function(direction){
@@ -43,7 +43,7 @@ $(document).ready(() =>{
         $('#testr').addClass('animate__animated animate__fadeInRight animate__fast');
     
         },{
-            offset: '70%'
+            offset: '60%'
     });
 
 });

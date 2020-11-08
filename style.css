@@ -268,6 +268,7 @@ a:hover{
 
 .sbox{
     transition: 0.27s ease-in-out;
+    
 }
 .sbox:hover{
     transform: scale(1.15);
@@ -280,6 +281,7 @@ a:hover{
 
 #navbar{
     opacity: 0;
+    z-index: 99;
 }
 
 #about{
@@ -302,12 +304,88 @@ a:hover{
     opacity: 0;
 }
 
-:root {
-    --animate-duration: 400ms;
-    --animate-delay: 0.4s;
-  }
 
-  #test{
+#test{
     overflow-x: hidden;
     overflow: hidden;
-  }
+}
+
+@media (max-width:991px){
+    .home-heading{
+        color: white;
+        font-weight: 800;
+        font-size: 40px;
+    }
+    
+    .home-para{
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .contact-btn-para{
+        color: white;
+        font-size: 19px;
+        font-weight: 500;
+        padding:20px;
+        
+    }
+
+    .heading{
+        font-weight: 800;
+        color:white ;
+        font-size: 40px;
+    }
+    
+    .paragraph{
+        color: white;
+        font-size:16px;
+        margin: 20px;
+        text-align: left;
+        
+    }
+
+    .sbox{
+        transition: 0.27s ease-in-out;
+        margin: 25px;
+    }
+    .sbox:hover{
+        transform: scale(1);
+        z-index: 99;
+    }
+
+    .test-col:hover{
+        transform: scale(1);
+    }
+
+    .gallery-img{
+        margin:20px
+    }
+
+    .gallery-img:hover{
+        transform: scale(1);
+    }
+    .row{
+        margin: 0;
+    }
+    .home{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .about-box{
+        margin:20px;
+        
+    }
+    .quote-box{
+        padding:0;
+    }
+    .quote-box .paragraph{
+        margin:5px;
+    }
+    ul{
+        padding:0;
+        margin-left: 0;
+    }
+ }
