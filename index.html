@@ -8,6 +8,7 @@
     <!-- css of bootstrap and custom -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- font  -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
@@ -17,10 +18,10 @@
 <body>
     <!-- navbar  -->
     <div class="container-fluid">
-        <div class="navbar navbar-expand-md fixed-top navbar-dark dark-bg " id="navbar">
+        <div class="navbar navbar-expand-md fixed-top navbar-dark" id="navbar">
             <!-- navbar logo -->
             <div class="navbar-brand mr-auto">
-                <a href="#home" ><span class="text-white" style="font-size: 24px;">BANSHEE</span> </a>
+                <a href="#home" ><span class="text-white" style="font-size: 23px;">BANSHEE</span> </a>
             </div>
             <button class="navbar-toggler fixed " data-target="#navmenu" data-toggle="collapse">
                 <span class="navbar-toggler-icon"></span>
@@ -43,7 +44,7 @@
     <!-- home -->
     <div class="home-background" id="home">
         <div class="container-fluid home" >
-            <div class="home-contents">
+            <div class="home-contents" id="home-content">
                 <h1 class="home-heading">Game Art Design 
                     and Development</h1>
                 <p class="home-para">Banshee is a team of passionate & creative game 
@@ -152,7 +153,7 @@
         <div class="container" >
             <div class="row" style="height: 100px;"></div>
             <div class="row">
-                <div class="col-md-6 col-12 " >
+                <div class="col-md-6 col-12 " id="testl" >
                     <div class="row" style="height: 100px;"></div>
                     <div class="row justify-content-center">
                         <div class="col-10">
@@ -163,7 +164,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12" id="testr">
                     <div class="row">
                         <div class="col-10 test-col">
                             <div class="row">
@@ -370,6 +371,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
-    <script src="assets/js/script.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

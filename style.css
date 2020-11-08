@@ -1,6 +1,7 @@
 *{
     font-family: "Montserrat",sans-serif; 
     scroll-behavior: smooth;
+    
 }
 body{
     background-color: black;
@@ -23,6 +24,7 @@ body{
     font-weight: 600;
     font-size: 15px;
 }
+
 
 .home-background{
     height: 100vh;
@@ -126,6 +128,8 @@ a:hover{
 .test-col:hover{
     transform: scale(1.04);
 }
+
+
 .quote{
     color: white;
     font-size: 13px;
@@ -269,3 +273,41 @@ a:hover{
     transform: scale(1.15);
     z-index: 99;
 }
+
+#home-content{
+    opacity: 0;
+}
+
+#navbar{
+    opacity: 0;
+}
+
+#about{
+    opacity: 0;
+}
+
+#services{
+    opacity: 0;
+}
+#portfolio{
+    opacity: 0;
+}
+#contacts{
+    opacity: 0;
+}
+#testl{
+    opacity: 0;
+}
+#testr{
+    opacity: 0;
+}
+
+:root {
+    --animate-duration: 400ms;
+    --animate-delay: 0.4s;
+  }
+
+  #test{
+    overflow-x: hidden;
+    overflow: hidden;
+  }
