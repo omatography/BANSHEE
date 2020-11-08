@@ -17,10 +17,10 @@
 <body>
     <!-- navbar  -->
     <div class="container-fluid">
-        <div class="navbar navbar-expand-md fixed-top navbar-dark " id="navbar">
+        <div class="navbar navbar-expand-md fixed-top navbar-dark dark-bg " id="navbar">
             <!-- navbar logo -->
             <div class="navbar-brand mr-auto">
-                <a href="#home" ><span class="text-white">BANSHEE</span> </a>
+                <a href="#home" ><span class="text-white" style="font-size: 24px;">BANSHEE</span> </a>
             </div>
             <button class="navbar-toggler fixed " data-target="#navmenu" data-toggle="collapse">
                 <span class="navbar-toggler-icon"></span>
@@ -29,32 +29,37 @@
             <div class="collapse navbar-collapse " id="navmenu">
                 <ul class="nav navbar-nav navbar-center" >
                     <li class="nav-item" role="presentation"><a href="#about" class=" nav-link active ">ABOUT</a></li>
-                    <li class="nav-item" role="presentation"><a href="#about" class=" nav-link">SERVICES</a></li>
-                    <li class="nav-item" role="presentation"><a href="#about" class=" nav-link">TESTIMONIALS</a></li>
-                    <li class="nav-item" role="presentation"><a href="#about" class=" nav-link">PORTFOLIO</a></li>
-                    <li class="nav-item" role="presentation"><a href="#about" class=" nav-link">CONTACT</a></li>
+                    <li class="nav-item" role="presentation"><a href="#services" class=" nav-link">SERVICES</a></li>
+                    <li class="nav-item" role="presentation"><a href="#test" class=" nav-link">TESTIMONIALS</a></li>
+                    <li class="nav-item" role="presentation"><a href="#portfolio" class=" nav-link">PORTFOLIO</a></li>
+                    <li class="nav-item" role="presentation"><a href="#contacts" class=" nav-link">CONTACT</a></li>
                 </ul>
-                <span class="text-white ml-auto">SIGN IN</span>
+                <span class="text-white ml-auto" style="font-weight: 600; font-size: 16px; cursor: pointer;">SIGN IN</span>
             </div>
             
         </div>
     </div>
 
     <!-- home -->
-    <div class="home-background">
+    <div class="home-background" id="home">
         <div class="container-fluid home" >
-            <h1 class="home-heading">Game Art Design <br>
-                and Development</h1>
-            <p class="home-para">Banshee is a team of passionate & creative game <br>
-            developers specializing in game design, development <br>& deployment</p> 
-            <button class=" btn contact-btn btn-outline-light">
-                <span class="contact-btn-para">Contact Us</span>
-            </button>   
+            <div class="home-contents">
+                <h1 class="home-heading">Game Art Design 
+                    and Development</h1>
+                <p class="home-para">Banshee is a team of passionate & creative game 
+                developers specializing in game design, development & deployment</p> 
+                <a href="#contacts"> 
+                    <button class=" btn contact-btn btn-outline-light">
+                        <span class="contact-btn-para">Contact Us</span>
+                    </button>
+                </a>
+            </div>   
+            
         </div>
     </div>
 
     <!-- about  -->
-    <div class="about">
+    <div class="about" id="about">
         <div class="container" >
             <div class="row" style="height: 100px;"></div>
             <div class="row justify-content-center">
@@ -68,28 +73,28 @@
             <div class="row">
                 <div class="col-md-3 col-12 about-col ">
                     <div class="about-box">
-                        <h4 class="about-box-heading"> <img src="assets/checkmark.png" alt="" width="25" height="25"> Premium Designs</h4>
+                        <h4 class="about-box-heading"> <img src="assets/checkmark.png" alt="" width="19" height="19"> Premium Designs</h4>
                         <p class="paragraph" style="margin-top: 20px;">Over 1000+ high quality professionally designed <br> pre-built character models/ concepts to choose from.</p>
                     </div>
 
                 </div>
                 <div class="col-md-3 col-12 about-col">
                     <div class="about-box">
-                        <h4 class="about-box-heading"> <img src="assets/checkmark.png" alt="" width="25" height="25"> Super Fast Delivery</h4>
+                        <h4 class="about-box-heading"> <img src="assets/speedometer.png" alt="" width="22" height="19"> Super Fast Delivery</h4>
                         <p class="paragraph" style="margin-top: 20px;" >Our highly skilled development team ensures that you get what you want, when you want it.</p>
                     </div>
 
                 </div>
                 <div class="col-md-3 col-12 about-col">
                     <div class="about-box">
-                        <h4 class="about-box-heading"> <img src="assets/checkmark.png" alt="" width="25" height="25"> Top Performance</h4>
+                        <h4 class="about-box-heading"> <img src="assets/pulse.png" alt="" width="24" height="20"> Top Performance</h4>
                         <p class="paragraph" style="margin-top: 20px;" >Code & Designs optimized for blazing fast loading times and ensure premium class performance.</p>
                     </div>
 
                 </div>
                 <div class="col-md-3 col-12 about-col">
                     <div class="about-box">
-                        <h4 class="about-box-heading"> <img src="assets/checkmark.png" alt="" width="25" height="25"> Great Support</h4>
+                        <h4 class="about-box-heading"> <img src="assets/heart.png" alt="" width="19" height="19"> Great Support</h4>
                         <p class="paragraph" style="margin-top: 20px;" >Crafted with care and ensured to work on all platforms you want it to without hassle</p>
                     </div>
 
@@ -99,7 +104,7 @@
     </div>
 
     <!-- services -->
-    <div class="services">
+    <div class="services" id="services">
         <div class="container">
             <div class="row" style="height: 100px;"></div>
             <div class="row justify-content-center">
@@ -110,30 +115,30 @@
             </div>
             <div class="row" style="height: 60px;"></div>
             <div class="row">
-                <div class="col-md-4" style="padding: 0 0;">
+                <div class="col-md-4 sbox" style="padding: 0 0;">
                     <img src="assets/s1.png" class="img-fluid" height="211" alt="">
                     <h4 class="heading-services">2D Art</h4>
                 </div>
-                <div class="col-md-4" style="padding: 0 0;">
+                <div class="col-md-4 sbox" style="padding: 0 0;">
                     <img src="assets/s2.png" class="img-fluid" height="211" alt="">
                     <h4 class="heading-services">3D Art</h4>
                 </div>
-                <div class="col-md-4" style="padding: 0 0;">
+                <div class="col-md-4 sbox" style="padding: 0 0;">
                     <img src="assets/s3.png" class="img-fluid" height="211" alt="">
                     <h4 class="heading-services">Game Development</h4>
                 </div>
                 
             </div>
             <div class="row">
-                <div class="col-md-4" style="padding: 0 0;">
+                <div class="col-md-4 sbox" style="padding: 0 0;">
                     <img src="assets/s4.png" class="img-fluid" height="211" alt="">
                     <h4 class="heading-services">Concept Art</h4>
                 </div>
-                <div class="col-md-4" style="padding: 0 0;">
+                <div class="col-md-4 sbox" style="padding: 0 0;">
                     <img src="assets/s5.png" class="img-fluid" height="211" alt="">
                     <h4 class="heading-services">Animation</h4>
                 </div>
-                <div class="col-md-4" style="padding: 0 0;">
+                <div class="col-md-4 sbox" style="padding: 0 0;">
                     <img src="assets/s6.png" class="img-fluid" height="211" alt="">
                     <h4 class="heading-services">Environment Design</h4>
                 </div>
@@ -143,7 +148,7 @@
     </div>
 
     <!-- testimonials  -->
-    <div class="about">
+    <div class="about" id="test">
         <div class="container" >
             <div class="row" style="height: 100px;"></div>
             <div class="row">
@@ -202,7 +207,7 @@
     </div>
 
     <!-- portfolio  -->
-    <div class="about">
+    <div class="about" id="portfolio">
         <div class="container" >
             <div class="row" style="height: 100px;"></div>
             <div class="row justify-content-center">
@@ -257,7 +262,7 @@
     </div>
 
     <!-- contacts -->
-    <div class="about">
+    <div class="contacts" id="contacts">
         <div class="container" >
             <div class="row" style="height: 70px;"></div>
             <div class="row justify-content-center">
@@ -292,9 +297,9 @@
     <!-- footer  -->
     <div class="footer">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-md-1">
-                    <ul style="list-style-type:none">
+                    <ul style="list-style-type:none;">
                         <li class="footer-head">Services</li>
                         <li class="footer-para">2D Art</li>
                         <li class="footer-para">2D Art</li>
@@ -302,7 +307,7 @@
                     </ul>
                 </div>
                 <div class="col-md-2">
-                    <ul style="list-style-type:none">
+                    <ul style="list-style-type:none;margin-left:23px;">
                         <li class="footer-head"> <br></li>
                         <li class="footer-para">Concept Art</li>
                         <li class="footer-para">Animation</li>
@@ -317,7 +322,7 @@
                         <li class="footer-para">contact@banshee.io</li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <p class="footer-head">Address</p>
                     <p class="footer-para">
                         124 Swan Tower, <br>
@@ -325,7 +330,38 @@
                         Kerala, India
                     </p>
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-9">
+                            <ul style="list-style-type:none; ">
+                                <li style="display: inline; float:left">
+                                    <div class="footer-icon-box">
+                                        <i class="fab fa-facebook-f footer-icon"></i>
+                                    </div>
+                                </li>
+                                <li style="display: inline; float:left">
+                                    <div class="footer-icon-box">
+                                        <i class="fab fa-twitter footer-icon"></i>
+                                    </div>
+                                </li>
+                                <li style="display: inline; float:left">
+                                    <div class="footer-icon-box">
+                                        <i class="fab fa-snapchat-ghost footer-icon"></i>
+                                    </div>
+                                </li>
+                                <li style="display: inline; float:left">
+                                    <div class="footer-icon-box">
+                                        <i class="fab fa-instagram footer-icon"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div class="col-9">
+                            <p class="footer-para text-right" style="margin:5px;">Banshee &copy; 2020</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
